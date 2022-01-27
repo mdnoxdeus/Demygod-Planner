@@ -1,0 +1,107 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body{
+	margin: 0px;
+	background-image: url("./Images/sky.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.container{
+	text-align:center;
+}
+
+h2, 
+#enterButton{
+	font-family: 'Supermercado One', cursive;
+}
+
+h2{
+	background-image: url("./Images/image1.png");
+	background-position: center;
+	background-repeat: repeat;
+	background-size: 383px 683px;
+	color: floralwhite;
+	height:100px;
+	margin-top:20px;
+	padding-top:12px;
+	text-align:center;
+	letter-spacing:2px;
+	font-size:24px;
+}
+
+#userinput{
+	position:relative;
+	background-color: #6AB4FF;
+	height: 35px;
+	width:100px;
+	border-radius: 10px;
+	padding-left:8px;
+}
+
+#userinput:focus{
+	outline:none;
+	border: 1.5px solid #00CDFE;
+	box-shadow: 0.75px 0.75px 2px #1484CD;
+	width:150px;
+}
+
+#enterButton{
+	background-color: #6AB4FF;
+	/*font-weight: bold;*/
+	font-size: 15px;
+	letter-spacing: 1px;
+	height:35px;
+	width: 100px;
+	border-radius: 15px
+}
+#enterButton:focus{
+	outline:none;
+}
+
+
+.todolist{
+	font-family: 'Lato', sans-serif;
+	/*line-height: 30px;*/
+	height: 650px;
+	min-height: 80px;
+	margin:0 auto;
+	border: 1.5px solid #03254c;
+	box-shadow: 0.75px 0.75px 2px #187bcd;
+	border-radius: 15px;
+	background-color: #6AB4FF;
+	font-size: 18px;
+}
+
+
+li:hover{
+	text-decoration: line-through;
+ }
+
+ .done{
+ 	text-decoration: line-through;
+ }
+
+.todobutton{
+	position: absolute;
+	right:40px;
+	background-color: #06b0fb;
+	height: 30px;
+	width: 100px;
+	border-radius: 10px;
+	margin top: 2px;
+	margin-bottom: 3px;
+}
+
+.todobutton:focus{
+	outline:none;
+}
